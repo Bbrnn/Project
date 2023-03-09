@@ -1,0 +1,42 @@
+/*outer layout of thhe calculator*/
+body{
+width: 300px;  
+height: 500px;  
+margin: 20px auto;  
+border: 3px solid #0ba369;  
+border-radius: 5px;  
+padding: 20px;  
+text-align: center;  
+background-color: rgba(182, 157, 157, 0.897);  
+
+}
+h1{
+  text-align: center;  
+  padding: 20px;  
+  background-color: wheat;  
+  color: rgb(223, 106, 106);  
+  font-size: 20px;
+  font-style: italic;
+  word-spacing:0cqmax
+}
+input:hover  
+{  
+background-color: green;  
+}  
+
+/*used to create layout of the buttons*/
+button{  
+  width: 50px;  
+  height: 70px;  
+  font-size: 25px;  
+  margin: 2px;  
+  cursor: pointer;  
+  background-color: #345b63;  
+  color: #d4ecdd;  
+  transition:0.3s;
+    
+  }  
+  section table tr td{
+    height:50px;
+    width:50px;
+  }
